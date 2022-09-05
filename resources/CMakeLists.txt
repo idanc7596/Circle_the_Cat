@@ -1,0 +1,16 @@
+﻿file (MAKE_DIRECTORY ${CMAKE_BINARY_DIR}/resources)
+configure_file ("background.png" ${CMAKE_BINARY_DIR}/resources COPYONLY)
+configure_file ("gameWin.png" ${CMAKE_BINARY_DIR}/resources COPYONLY)
+configure_file ("levelWin.png" ${CMAKE_BINARY_DIR}/resources COPYONLY)
+configure_file ("levelLose.png" ${CMAKE_BINARY_DIR}/resources COPYONLY)
+configure_file ("catIcon.png" ${CMAKE_BINARY_DIR}/resources COPYONLY)
+configure_file ("cat.png" ${CMAKE_BINARY_DIR}/resources COPYONLY)
+configure_file ("hexagon.png" ${CMAKE_BINARY_DIR}/resources COPYONLY)
+configure_file ("blockedHexagon.png" ${CMAKE_BINARY_DIR}/resources COPYONLY)
+configure_file ("Austein.ttf" ${CMAKE_BINARY_DIR}/resources COPYONLY)
+configure_file ("gameMusic.wav" ${CMAKE_BINARY_DIR}/resources COPYONLY)
+configure_file ("winSound.wav" ${CMAKE_BINARY_DIR}/resources COPYONLY)
+configure_file ("loseSound.wav" ${CMAKE_BINARY_DIR}/resources COPYONLY)
+configure_file ("meowSound.wav" ${CMAKE_BINARY_DIR}/resources COPYONLY)
+
+
